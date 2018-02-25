@@ -1,0 +1,64 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet"> 
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Stars hemsida</title>
+    <link rel="icon" type="image.jpg" href="bilder/star.jpg">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+  <nav class="nav navbar-inverse navbar-static-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Startsida</a>
+          <ul class="nav navbar-nav">
+              <li><a href="menyval1.html">Musik</a></li>
+              <li><a href="menyval2.html">Dans</a></li>
+              <li><a href="menyval3.html">Mat</a></li>
+          </ul>
+      </div>
+  </nav>
+
+  <h1> Musik </h1>
+  <h2> Mina favorit artister: </h2>
+  <h2> 1. BTS </h2>
+  <h2> 2. Blackpink </h2>
+  <h2> 3. Troye Sivan </h2>
+  <img src="bilder/th1Z80RVCS.jpg" width="400px">
+
+  <h2> Mina favoritlåtar just nu är: </h2>
+  <h2> 1. Dimple - BTS </h2>
+  <h2> 2. Union of the snake - Riverdale cast </h2>
+  <h2> 3. The good side - Troye Sivan </h2>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/ZOPprfzgZhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
+
+</body>
+</html>
